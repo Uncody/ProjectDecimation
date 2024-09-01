@@ -8,6 +8,3 @@ public class ProjectDecimationClient implements ClientModInitializer {
 		ProjectDecimation.LOGGER.info("five niggers in uran ass");
 	}
 }
-
-
-
