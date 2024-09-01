@@ -11,6 +11,6 @@ public class ProjectDecimation implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Секс");
+		LOGGER.info("Секс с неграми");
 	}
 }
