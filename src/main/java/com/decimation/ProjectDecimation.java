@@ -1,5 +1,6 @@
 package com.decimation;
 
+import com.decimation.item.ModItemGroups;
 import com.decimation.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -13,7 +14,7 @@ public class ProjectDecimation implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItemGroups.registerItemGroups();
 		ModItems.RegisterModItems();
 	}
 }
