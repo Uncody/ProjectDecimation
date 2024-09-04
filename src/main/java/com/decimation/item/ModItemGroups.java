@@ -13,7 +13,7 @@ public class ModItemGroups {
     public static final ItemGroup ITEMS = Registry.register(Registries.ITEM_GROUP,
             new Identifier(ProjectDecimation.MOD_ID, "items"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.items"))
-                    .icon(() -> new ItemStack(ModItems.CROWBAR)).entries((displayContext, entries) -> {
+                    .icon(() -> new ItemStack(ModItems.LOCKPICK)).entries((displayContext, entries) -> {
                             entries.add(ModItems.CROWBAR);
                             entries.add(ModItems.LOCKPICK);
                     }).build());

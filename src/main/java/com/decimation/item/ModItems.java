@@ -8,7 +8,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item CROWBAR = registerItem("crowbar", new Item(new Item.Settings()));
-    public static final Item LOCKPICK = registerItem("lockpick", new Item(new Item.Settings()));
+    public static final Item LOCKPICK = registerItem("lockpick", new Item(new Item.Settings().maxCount(16)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(ProjectDecimation.MOD_ID, name), item);
