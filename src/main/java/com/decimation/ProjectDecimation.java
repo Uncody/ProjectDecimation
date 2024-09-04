@@ -15,6 +15,6 @@ public class ProjectDecimation implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
-		ModItems.RegisterModItems();
+		ModItems.registerModItems();
 	}
 }

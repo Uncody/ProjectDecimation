@@ -14,8 +14,7 @@ public class ModItems {
         return Registry.register(Registries.ITEM, new Identifier(ProjectDecimation.MOD_ID, name), item);
     }
 
-    public static void RegisterModItems() {
+    public static void registerModItems() {
         ProjectDecimation.LOGGER.info("Registering mod Items for" + ProjectDecimation.MOD_ID);
-
     }
 }
